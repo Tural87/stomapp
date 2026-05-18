@@ -387,3 +387,11 @@ body.light .top-icon:hover{color:#0f172a!important;background:rgba(15,23,42,.05)
 body.light .logout-btn{background:#fff!important;color:#0f172a!important;border-color:rgba(15,23,42,.12)!important}
 body.light .stat-card{color:#0f172a!important}
 body.light .stat-lbl{color:#475569!important}
+
+@media(max-width:768px){
+  body{overflow-x:hidden!important}
+  .main{margin-left:0!important;width:100%!important}
+  .sidebar{transform:translateX(-100%)!important}
+  .sidebar.open{transform:translateX(0)!important}
+  .topbar{width:100%!important}
+}
